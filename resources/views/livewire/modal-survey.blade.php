@@ -22,7 +22,7 @@
 
                     <x-label class="text-lg text-black mt-4" :value="__('Edad')" />
                     <ul class="grid gap-6 w-full md:grid-cols-4">
-                        <x-input-radio-advanced-layout id="age-1" value="18-15" name="age" wire:model="data.age">
+                        <x-input-radio-advanced-layout id="age-1" value="18-25" name="age" wire:model="data.age">
                             <div class="w-full text-lg font-semibold">18-25</div>
                             <div class="w-full">Años</div>
                         </x-input-radio-advanced-layout>

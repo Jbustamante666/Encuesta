@@ -2,7 +2,7 @@
     <x-alert event="@survey-sent.window" message="$event.detail.message" />
     <div class="relative">
         <figure>
-            <img src="http://c.files.bbci.co.uk/3756/production/_105666141_gettyimages-925451818.jpg" class="max-h-screen min-h-screen w-full object-cover" alt="Imagen para la encuesta">
+            <img src="{{ asset('img/_105666141_gettyimages-925451818.jpg') }}" class="max-h-screen min-h-screen w-full object-cover" alt="Imagen para la encuesta">
         </figure>
 
         <div class="absolute z-10 w-full min-h-screen top-0">
